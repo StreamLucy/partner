@@ -1,0 +1,2 @@
+/*! Copyright©2008-2016 ykxia.com All Rights Reserved.2017-05-09 */
+function mobileValidate(mobile){if(null===mobile||""===mobile)return!1;var reg=/(^0?(13[0-9]|14[57]|15[012356789]|17[012356789]|18[0-9])[0-9]{8}$)|(^886[0-9]{9}$)/;return!!reg.test(mobile)}function emailValidate(email){if(null===email||""===email)return!1;var reg=/^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;return!!reg.test(email)}function strValidate(str){if(null===str||""===str)return!1;var reg=/[@#\$%\^&\*]+/;return!reg.test(str)}
