@@ -56,9 +56,9 @@ $yk_agent = mysql_fetch_array($res, MYSQL_ASSOC);
     if(0 < $ad_num){
         $yk_carousel = mysql_fetch_all($res, MYSQL_ASSOC);
     }
-/*	if(0<$ad_num){
-		$yk_carousel = mysql_fetch_array($res, MYSQL_ASSOC);
-	}*/
+//	if(0<$ad_num){
+//		$yk_carousel = mysql_fetch_array($res, MYSQL_ASSOC);
+//	 }
 
 
 	if ($_POST['submit']){
